@@ -1,0 +1,51 @@
+html,body{
+    background: -webkit-gradient(linear, left top, right top, from(rgb(101, 76, 245)), to(#c8a1f8)) no-repeat;
+    color: white;
+
+
+}
+.home{
+    text-align: center;
+    border-radius: 60px;
+    color: white;
+}
+.container{
+ width:90%;    
+}
+.ze{
+    border-radius: 90%;
+}
+a{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.l{
+    color: white;
+}
+.cor{
+    background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    font-size: 25px;
+}
+td{color: white;}
+th{
+    color: white;
+}
+h2{
+    color: white;
+}
+.i{
+    font-size: 25px;
+}
+.borda{
+  
+    background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: #FFF;
+    padding: 10px;
+    margin: 10px;
+}
+.dados{
+
+    text-align: center;
+}

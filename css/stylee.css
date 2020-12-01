@@ -1,0 +1,159 @@
+
+
+body {
+	background:url(/img/bcFundo.png) no-repeat center center fixed;
+	font-family: 'Roboto', sans-serif;
+	background-size:cover;
+}
+.corpo{
+	max-width:750px;
+	margin:0 auto;
+	background:rgba(255, 252, 252, 0);
+	border-radius: 10px;	
+}
+.quiz {		
+	background-color: white;
+	padding: 10px 20px 20px 20px;
+	width:100%;
+	border-radius: 20px;
+	text-align: justify;
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;	
+}
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+
+
+.perguntas{
+	font-size: 20px;
+}
+
+#texto{
+
+
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+#imagen_resposta {
+	visibility: hidden;
+	text-align: center;
+	color: rgb(12, 12, 12);
+    height: 1px;	
+	padding: 10px 20px 10px 20px;
+	margin: auto;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;	
+}
+footer{
+	visibility: hidden;
+	width: 300px;
+	margin: auto;
+	border-radius: 10%;
+	text-align: center;
+	color: rgb(12, 12, 12);
+	background: white;
+	font-size: 20px;
+}
+.msg{
+	border-radius: 5px;
+	width: 450px;
+	margin: auto;
+	background-color: white;
+}
+.btinic{
+	visibility: hidden;	
+	text-align: center;	
+	margin: auto;	
+	font-size: 20px;
+	border-radius: 10px;
+	font-family: 'Roboto', sans-serif;	
+	background: rgba(255, 252, 252, 0);
+	color: white;
+	cursor: pointer;
+	
+}
+#picture {
+	width: 450px;
+	height: 245px;
+	border-radius: 10px;
+}
+
+.bt{
+	display: inline;
+
+} 
+.btn2{
+	cursor: pointer;
+	text-align: center;	
+	margin: auto;
+	font-size: 20px;
+	border-radius: 10px;
+	background: rgba(255, 252, 252, 0);
+	color: rgb(12, 12, 12);	
+}
+
+
+
+h1{
+	font-size: 25pt;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: black;	
+	background-color: white;
+	width: 500px;
+	margin: auto;
+	border-radius: 15px;
+}	
+img#bola{
+    display: initial;
+	width: 80px;
+	height: 80px;
+	border-radius: 15px;
+    
+    Animation: bola 2s infinite;
+}
+@keyframes bola{
+
+    0% {transform :translateX(0px);}
+    75% {transform :translateX(0px) translateY(40px);}
+    90% {transform :translateX(0px)translateY(0px);}
+
+}
+div#bola1{
+    text-align: center;
+
+}
+@media screen and (min-width:0px) and (max-width:600px){
+	.quiz{
+		background:url(img/bc1.png);
+		color: white;
+		width: 400px;
+	}
+	.btn2{
+		color: white;
+		
+	}
+}
+@media screen and (min-width:601px) and (max-width:900px){
+	.quiz{
+		background:url(img/bc2.png);
+		color: white;
+		width: 600px;
+		
+		
+	}
+}
+@media screen and (min-width:901px) and (max-width:1200px){
+	.quiz{
+		background:url(img/bc3.png);
+		color: rgb(253, 251, 251);
+		
+	}
+}
+
+
+

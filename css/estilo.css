@@ -1,0 +1,365 @@
+body{ margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(101, 76, 245)), to(#c8a1f8)) no-repeat;
+  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');    
+  Read more: http://www.linhadecodigo.com.br/artigo/3603/css3-gradient-criando-planos-de-fundo-com-efeito-degrade.aspx#ixzz6JuNP9Zmh}
+
+  .masthead {
+    background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+  /*inicio das configuração do meu menu caco eu queira exportar*/
+#menuinicio{
+  height: 70px;
+  
+}
+#sbv{
+  color: #000000;
+}
+.cerProj{
+  margin-top: 100px;
+}
+
+  header{
+  position: relative;
+  max-width: 98%;
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0, .2);
+  background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+.men{
+  margin-top: 30px;
+ 
+}
+
+
+
+.logo{
+  color: aqua;
+  transform: translateX();
+  width: 5px;
+  font-size:50px;
+  line-height: 5px;  
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+ 
+  font-weight: 900;
+  border-radius: 10px;
+  
+}
+.logo2{
+  display: none;
+  width: 100px;
+  float: left;
+  padding: 0;
+  border: 0;
+  margin-left: 0;
+}
+
+.img{ 
+  
+  
+  margin-top: -10;
+
+  height: 70px;
+  border:solid ;
+  border-radius:50%;
+  
+  -webkit-transition: -webkit-transform 3s ;
+}
+
+.img:hover{transform: rotate(360deg)
+   translateZ(0); 
+  border:solid ; color: red;}
+
+nav{
+  float: right;
+
+}
+.clearfix{
+  clear: both;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li{
+  list-style-type: none;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+
+nav ul li a{
+  display: block;
+  margin: 0px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fcf9f9;
+  font-size: 25px;
+}
+
+ nav ul li a:hover{
+  box-shadow: 0 2px 5px rgba(10, 26, 247, 0.9);
+  transition: 0.5s;
+  border-radius: 5px;
+}
+ .contatos{
+  box-shadow: 0 2px 5px rgba(10, 26, 247, 0.9);
+  transition: 0.5s;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 3s ;
+}
+ .contatos:hover{
+  transform: rotate(360deg) translateZ(0); 
+  border:solid ; color: red;}
+
+
+
+i.active{ background-color: crimson; }
+
+.geral{ display: none;}
+/*final do nenu */
+
+/*configuração das divis*/
+
+.celular{
+  border-top: 100px;
+  display: none ;
+}
+div .container .coluna{
+  border-block-color: #000000;
+}
+.redesc div {
+  
+  transition: all 1s; text-align: center;
+   margin-top: 50px; border-radius: 12px;}
+
+
+#cell{ display: none;}
+
+#pc{ display: block;}
+
+br{display: none;}
+
+.container ul {list-style-type: none; border-radius: 20px; }
+
+h1{ font-weight: 700; color: white;}
+
+h1:hover{ 
+  box-shadow: 0 2px 5px rgba(0,0,0, .9)
+}
+
+h3{border-radius:10PX;
+ font: 30px;
+   width: 100%;
+  font-weight:500;
+    color: white;
+}
+h5{border-radius:20PX; width: 100%; font-weight: 700; color: white;font-size: 30px;}
+
+
+h2:hover{ border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0, .9)}
+
+
+.bot:hover{
+  font-size: 20px;  
+  box-shadow: 0 2px 5px rgba(247, 7, 7, 0.9); 
+  border-radius: 20px;
+  background: rgba(159, 165, 250, 0.9);
+}
+
+.inf{color: white;}
+
+h3{  font-weight: 700; color: white;}
+
+
+
+.contatos-icon {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div{ text-align: center; border-top: 10px;}
+
+
+  
+.rodape{display: block;}
+
+#div-inicio p{
+  height:50px;
+  width: 300px;
+  font-size: 30px;
+  border: 20px;
+  border-radius: 20px;
+  background-color: #33ccff;}
+
+
+  #smart{
+    display: initial;
+
+  }
+  
+
+.a:hover{background-color: tomato;}
+
+.a{text-align: center; }
+
+.info:hover{box-shadow: 2px 5px 5px rgba(0,0,0, .9);} 
+
+.inco{ transition: all 1s; }
+
+.inco:hover{
+  background-color: white;
+  
+  width: 300pxpx;
+ 
+ }
+.circulo{
+  width: 300px;
+  height: px;
+ 
+}
+
+.tx{
+   color: white;font-size: 25px;
+   font-weight: 700; 
+}
+
+
+.coluna{ 
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(3, 6, 151, 0.9);
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+div .zap{
+  
+  padding-left: 5px;
+}
+footer{
+  margin-top: 20px;
+}
+.email{display: block;}
+.espaco{
+  margin-top: 50px;
+}
+.atual{
+  width: ;
+  height: 400px;
+}
+.efeito{background:white; font-size: 400px;}
+
+@media (min-width: 781px)  and (max-width: 1210px) 
+    { 
+      header{margin: 10px;}
+      .inco:hover{
+        border: 15px;
+        border-radius: 100%;
+        width: 180px;    
+       }
+       nav ul li a{font-size: 20px;}
+
+       .container{
+         font: 800px;
+       }
+ }
+.h1inicio{
+  margin-top: 80px;
+}
+ @media screen and (max-width: 780px) {
+  .menu-togger{ 
+    box-shadow:px rgba(1,0,0, .9);
+    font-weight: 700;
+    display: block;
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 5px; 
+  }
+  .menu-togger:before{
+    content: '\f0c9';
+    font-family: fontAwesome;
+  }
+  .menu-togger.active:before{
+    content: '\f00d';  
+  }
+
+   nav{ display: none;}
+
+   nav.active{ display: block; width: 100%;}
+
+   nav.active ul{ display: block;}
+
+   #cell{
+    display: block;
+    float: left;}
+
+   #pc{ display: none;}
+
+  .geral{ display: block;}
+
+  .celular{
+    margin-top: 100px;
+
+    display: block ;
+  }
+  .img{
+
+ 
+  }
+  div p img{
+    width: 10px;
+    height: 20px;
+  }
+ 
+  .rodape{display: none;}
+  .rodape1{
+    color: rgba(34, 2, 48, 0.897);
+  font-size: 15px;}
+  .txtpequeno{ font-size: 22px;}
+  .txtp{font-size: 17px;}
+  .foto{
+    
+    width: 30px;
+    height: 30px;
+  }
+  #smart{
+    display: none;
+
+  }
+  .email{display: none;}
+  h6{
+   position: relative;
+    float: left;
+    
+    
+      color: aqua;
+      transform: translateX();
+      width: 20pxpx;
+      top: 50px;
+      font-size:25px;
+      line-height: 20px;  
+      left: 100px;
+      box-sizing: border-box;
+      float: left;
+     
+      border-radius: 10px;
+      
+    }
+   
+  }
+
+  
+
+
+
+
