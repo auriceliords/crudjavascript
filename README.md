@@ -1,2 +1,2 @@
-﻿#https://auriceliords.github.io/crudjavascript/.
  # crudjavascript
+https://auriceliords.github.io/crudjavascript/.
